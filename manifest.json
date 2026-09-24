@@ -2,8 +2,12 @@
   "schemaVersion": 2,
   "devices": {
     "airso-button": {
-      "latest": "0.10.0",
+      "latest": "0.11.0",
       "releases": [
+        {
+          "version": "0.11.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.11.0/airso-button-firmware-0.11.0.bin"
+        },
         {
           "version": "0.10.0",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.10.0/airso-button-firmware-0.10.0.bin"
@@ -11,8 +15,12 @@
       ]
     },
     "airso-display-4": {
-      "latest": "0.10.0",
+      "latest": "0.11.0",
       "releases": [
+        {
+          "version": "0.11.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.11.0/airso-display-4-firmware-0.11.0.bin"
+        },
         {
           "version": "0.10.0",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.10.0/airso-display-4-firmware-0.10.0.bin"
