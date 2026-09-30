@@ -2,8 +2,16 @@
   "schemaVersion": 2,
   "devices": {
     "airso-button": {
-      "latest": "0.13.0",
+      "latest": "0.14.0",
       "releases": [
+        {
+          "version": "0.14.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.14.0/airso-button-firmware-0.14.0.bin",
+          "changes": [
+            "Установка OTA запускается device-level командой через Bluetooth; устройство самостоятельно скачивает прошивку по Wi-Fi.",
+            "BLE-клиент получает подтверждение команды, прогресс и результат OTA; поддержка объявляется capability otaCommand."
+          ]
+        },
         {
           "version": "0.13.0",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.13.0/airso-button-firmware-0.13.0.bin",
@@ -39,8 +47,16 @@
       ]
     },
     "airso-display-4": {
-      "latest": "0.13.0",
+      "latest": "0.14.0",
       "releases": [
+        {
+          "version": "0.14.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.14.0/airso-display-4-firmware-0.14.0.bin",
+          "changes": [
+            "Установка OTA запускается device-level командой через Bluetooth; устройство самостоятельно скачивает прошивку по Wi-Fi.",
+            "BLE-клиент получает подтверждение команды, прогресс и результат OTA; поддержка объявляется capability otaCommand."
+          ]
+        },
         {
           "version": "0.13.0",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.13.0/airso-display-4-firmware-0.13.0.bin",
