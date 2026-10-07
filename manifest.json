@@ -2,8 +2,13 @@
   "schemaVersion": 2,
   "devices": {
     "airso-button": {
-      "latest": "0.16.0",
+      "latest": "0.16.1",
       "releases": [
+        {
+          "version": "0.16.1",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.16.1/airso-button-firmware-0.16.1.bin",
+          "changes": []
+        },
         {
           "version": "0.16.0",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.16.0/airso-button-firmware-0.16.0.bin",
@@ -62,8 +67,13 @@
       ]
     },
     "airso-display-4": {
-      "latest": "0.16.0",
+      "latest": "0.16.1",
       "releases": [
+        {
+          "version": "0.16.1",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.16.1/airso-display-4-firmware-0.16.1.bin",
+          "changes": []
+        },
         {
           "version": "0.16.0",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.16.0/airso-display-4-firmware-0.16.0.bin",
@@ -115,8 +125,13 @@
       ]
     },
     "airso-keyboard-4x4": {
-      "latest": "0.16.0",
+      "latest": "0.16.1",
       "releases": [
+        {
+          "version": "0.16.1",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.16.1/airso-keyboard-4x4-firmware-0.16.1.bin",
+          "changes": []
+        },
         {
           "version": "0.16.0",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.16.0/airso-keyboard-4x4-firmware-0.16.0.bin",
