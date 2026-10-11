@@ -2,8 +2,15 @@
   "schemaVersion": 2,
   "devices": {
     "airso-button": {
-      "latest": "0.16.1",
+      "latest": "0.17.0",
       "releases": [
+        {
+          "version": "0.17.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.17.0/airso-button-firmware-0.17.0.bin",
+          "changes": [
+            "TMB12A03 используется как активная пищалка во всех текущих профилях."
+          ]
+        },
         {
           "version": "0.16.1",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.16.1/airso-button-firmware-0.16.1.bin",
@@ -67,8 +74,15 @@
       ]
     },
     "airso-display-4": {
-      "latest": "0.16.1",
+      "latest": "0.17.0",
       "releases": [
+        {
+          "version": "0.17.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.17.0/airso-display-4-firmware-0.17.0.bin",
+          "changes": [
+            "TMB12A03 используется как активная пищалка во всех текущих профилях."
+          ]
+        },
         {
           "version": "0.16.1",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.16.1/airso-display-4-firmware-0.16.1.bin",
@@ -125,8 +139,15 @@
       ]
     },
     "airso-keyboard-4x4": {
-      "latest": "0.16.1",
+      "latest": "0.17.0",
       "releases": [
+        {
+          "version": "0.17.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.17.0/airso-keyboard-4x4-firmware-0.17.0.bin",
+          "changes": [
+            "TMB12A03 используется как активная пищалка во всех текущих профилях."
+          ]
+        },
         {
           "version": "0.16.1",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.16.1/airso-keyboard-4x4-firmware-0.16.1.bin",
@@ -138,6 +159,19 @@
           "changes": [
             "Добавлен профиль клавиатуры 4×4 с прямым подключением активной пищалки.",
             "Нажатия передаются через BLE и Wi-Fi с повторной рассылкой и номерами событий."
+          ]
+        }
+      ]
+    },
+    "airso-joystick": {
+      "latest": "0.17.0",
+      "releases": [
+        {
+          "version": "0.17.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.17.0/airso-joystick-firmware-0.17.0.bin",
+          "changes": [
+            "TMB12A03 используется как активная пищалка во всех текущих профилях.",
+            "Добавлен KY-023: две оси, кнопка, калибровка и диагностика через BLE/Wi-Fi."
           ]
         }
       ]
