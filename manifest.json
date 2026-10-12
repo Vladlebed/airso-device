@@ -2,8 +2,13 @@
   "schemaVersion": 2,
   "devices": {
     "airso-button": {
-      "latest": "0.17.1",
+      "latest": "1.0.0",
       "releases": [
+        {
+          "version": "1.0.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v1.0.0/airso-button-firmware-1.0.0.bin",
+          "changes": []
+        },
         {
           "version": "0.17.1",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.17.1/airso-button-firmware-0.17.1.bin",
@@ -79,8 +84,13 @@
       ]
     },
     "airso-display-4": {
-      "latest": "0.17.1",
+      "latest": "1.0.0",
       "releases": [
+        {
+          "version": "1.0.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v1.0.0/airso-display-4-firmware-1.0.0.bin",
+          "changes": []
+        },
         {
           "version": "0.17.1",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.17.1/airso-display-4-firmware-0.17.1.bin",
@@ -149,8 +159,13 @@
       ]
     },
     "airso-keyboard-4x4": {
-      "latest": "0.17.1",
+      "latest": "1.0.0",
       "releases": [
+        {
+          "version": "1.0.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v1.0.0/airso-keyboard-4x4-firmware-1.0.0.bin",
+          "changes": []
+        },
         {
           "version": "0.17.1",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.17.1/airso-keyboard-4x4-firmware-0.17.1.bin",
@@ -179,8 +194,13 @@
       ]
     },
     "airso-joystick": {
-      "latest": "0.17.1",
+      "latest": "1.0.0",
       "releases": [
+        {
+          "version": "1.0.0",
+          "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v1.0.0/airso-joystick-firmware-1.0.0.bin",
+          "changes": []
+        },
         {
           "version": "0.17.1",
           "firmware": "https://github.com/Vladlebed/airso-device/releases/download/v0.17.1/airso-joystick-firmware-0.17.1.bin",
